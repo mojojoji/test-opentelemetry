@@ -1,0 +1,23 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "App1": {
+      "name": "App1",
+      "command": "node -r ./tracer.js app1.js",
+      "runAtStart": true
+    },
+    "App2": {
+      "name": "App2",
+      "command": "node -r ./tracer.js app2.js",
+      "runAtStart": true
+    },
+    "App3": {
+      "name": "App3",
+      "command": "node -r ./tracer.js app3.js",
+      "runAtStart": true
+    }
+  }
+}
